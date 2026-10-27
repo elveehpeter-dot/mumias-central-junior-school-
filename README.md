@@ -1,2 +1,158 @@
 # mumias-central-junior-school-
 index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mumias Central Junior School</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #243047;
+      line-height: 1.6;
+      background: #f5f8fc;
+    }
+    header {
+      background: #064e3b;
+      color: white;
+      padding: 24px 16px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 27px; }
+    header p { margin: 6px 0 0; }
+    nav {
+      background: #043b2d;
+      padding: 12px 8px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    nav a { color: white; text-decoration: none; }
+    .hero {
+      background: #d1fae5;
+      text-align: center;
+      padding: 45px 18px;
+    }
+    .hero h2 { color: #065f46; font-size: 30px; }
+    .btn {
+      display: inline-block;
+      background: #047857;
+      color: white;
+      padding: 11px 20px;
+      margin: 8px 4px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    main { max-width: 900px; margin: auto; padding: 16px; }
+    section {
+      background: white;
+      padding: 22px;
+      margin: 18px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px #0000000d;
+    }
+    h2 { color: #047857; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 14px;
+    }
+    .card { background: #ecfdf5; padding: 16px; border-radius: 8px; }
+    footer {
+      background: #064e3b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mumias Central Junior School</h1>
+    <p>Learning Today, Leading Tomorrow</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#results">Results</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero" id="home">
+    <h2>Welcome to Our School</h2>
+    <p>Building knowledge, character and a brighter future for every learner.</p>
+    <a class="btn" href="#admissions">Admissions Information</a>
+    <a class="btn" href="#about">Discover Our School</a>
+  </div>
+
+  <main>
+    <section id="about">
+      <h2>About Our School</h2>
+      <p>
+        Welcome to Mumias Central Junior School. Our website
+        provides information for learners, parents and visitors.
+        We are committed to supporting learning, responsibility
+        and the development of every learner.
+      </p>
+    </section>
+
+    <section>
+      <h2>Our School Community</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Quality Learning</h3>
+          <p>Supporting learners as they develop their knowledge and skills.</p>
+        </div>
+        <div class="card">
+          <h3>Good Character</h3>
+          <p>Encouraging respect, responsibility and teamwork.</p>
+        </div>
+        <div class="card">
+          <h3>Bright Futures</h3>
+          <p>Preparing learners for future education and opportunities.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="admissions">
+      <h2>Admissions</h2>
+      <p>
+        Interested in joining Mumias Central Junior School?
+        Contact the school office for admission requirements,
+        available places and enrolment procedures.
+      </p>
+      <p>Please confirm the current admission process with the school.</p>
+    </section>
+
+    <section id="results">
+      <h2>Examination Results</h2>
+      <p>
+        Results information will be provided here when published
+        by the school. For individual results, contact the
+        authorised school office.
+      </p>
+      <p><strong>Note:</strong> No learner results are published on this demo website.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p><strong>School:</strong> Mumias Central Junior School</p>
+      <p><strong>Location:</strong> Mumias, Kakamega County, Kenya</p>
+      <p><strong>Phone:</strong> Add the school's official phone number</p>
+      <p><strong>Email:</strong> Add the school's official email address</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Mumias Central Junior School</p>
+    <p>Official School Information Website</p>
+  </footer>
+</body>
+</html>
